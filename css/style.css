@@ -160,7 +160,9 @@ header p{
   border: 10px solid black;
   padding: 30px;
   text-align: center;
-  vertical-align: middle;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
