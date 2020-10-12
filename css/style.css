@@ -31,6 +31,7 @@ nav li{
 nav a{
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }
 
 /*Your Code Here*/
