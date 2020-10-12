@@ -101,7 +101,7 @@ header{
   color: white;
   height: 400px;                /* Parallax effect */
 
-  /*Your Code Here*/
+  
   /*Set background-image to header.jpg */
   background-image: url("../images/header.jpg");
   background-repeat: no-repeat;
@@ -119,13 +119,13 @@ header p{
 }
 
 .about, .method, .clients, .contact{
-  /*Your Code Here*/
+
   grid-column: 2 / span 1;
 
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  /*Your Code Here*/
+
   grid-column: 1 / -1;
   max-height: 700px;
   overflow: hidden;
@@ -139,19 +139,19 @@ header p{
 }
 
 .method, .method-image{
-   /*Your Code Here*/
+   grid-row: 3 / auto;
 
 }
 
 
 .clients, .clients-image{
-    /*Your Code Here*/
+    grid-row: 4 / auto;
 
 }
 
 
 .contact, .contact-image{
-    /*Your Code Here*/
+    grid-row: 5 / auto;
 
 }
 
