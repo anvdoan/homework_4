@@ -57,6 +57,10 @@ nav li:hover{
 
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
+body:focus{
+  border-style: solid;
+  border-width: 2px;
+}
 
 
 nav{
