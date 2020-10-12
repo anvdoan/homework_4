@@ -50,6 +50,7 @@ nav li:hover{
   z-index: 1;
 
   /*Your code here*/
+  position: absolute;
 }
 
 /*Your Code Here*/
