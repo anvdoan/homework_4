@@ -134,7 +134,7 @@ header p{
 }
 
 .about, .about-image{
-   /*Your Code Here*/
+   grid-row: 2 / auto;
 
 }
 
