@@ -160,32 +160,29 @@ header p{
   border: 10px solid black;
   padding: 30px;
   text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
+  vertical-align: middle;
 }
 
 
 @media all and (min-width: 800px){
   nav{
     padding: 30px 0px;
+    text-align: right;
+    vertical-align: middle;
 
   }
 
   .container{
-    /*Your code here:*/
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: repeat(5, 400px);
   }
 
   .about, .clients, .method-image, .contact-image{
-    /*Your code here:*/
+    grid-column: 3 / span 2;
   }
 
   .about-image, .clients-image, .method, .contact{
-    /*Your code here:*/
+    grid-column: 2 / span 2;
   }
 }
 
